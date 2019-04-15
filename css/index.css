@@ -1,0 +1,236 @@
+/* @font-face {
+  src: url('../News Gothic Extra Condensed Bold/News Gothic Extra Condensed Bold.otf') format('opentype');
+}
+@import url(https://fonts.googleapis.com/css?family=Lora); */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: 'News Gothic Extra Condensed Bold';
+  background: url(../images/back.png);
+  max-width: 1300px;
+  margin: 0 auto;
+  position: relative;
+}
+
+body {
+  margin-top: 20px;
+  width: 1300px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.75);
+  background: url(../images/Background.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: repeat;
+}
+
+h1 {
+  height: 26px;
+  color: #353535;
+  font-size: 27px;
+  font-weight: 400;
+  line-height: 20.73px;
+  margin-left: 28px;
+  margin-top: 28px;
+}
+
+h2 {
+  height: 8px;
+  color: #aca6a6;
+  font-family: Avian;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 9.16px;
+  text-transform: uppercase;
+  padding: 0;
+  margin-left: 28px;
+  margin-top: -20px;
+}
+
+.block {
+  min-height: 10em;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+header {
+  width: 1300px;
+  height: 95px;
+}
+
+.container {
+  display: grid;
+  grid-template-rows: 157px 100px 1000px auto;
+}
+
+.price {
+  width: 1300px;
+  background: url(../images/draw.png);
+  background-size: cover;
+
+}
+
+.menu {
+  background: url(../images/draw_gray.png);
+  background-size: cover;
+  line-height: 100px;
+
+}
+
+ul {
+  margin: 0;
+  padding-left: 0;
+
+
+}
+
+a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #dedede;
+  margin-left: 20px;
+}
+
+li:before {
+content:'';
+background-image: url(../images/arrow.png);
+width: 20px;
+height: 20px;
+position: absolute;
+background-size: cover;
+margin-top: 42px;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+  margin-left: 20px;
+  font-size: 1.5em;
+}
+
+.menu a {
+  padding: 1em;
+  border-right: 1px solid #b19891;
+}
+
+.menu a:hover {
+  background: #b19891;
+}
+
+
+img {
+  margin-top: 14px;
+  margin-left: 2px;
+}
+
+
+
+
+.price {
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  color: white;
+  position: relative;
+
+
+}
+
+#name_plane {
+
+  text-transform: uppercase;
+  color: black;
+  font-weight: bold;
+  margin-top: 10px;
+  border-right: 1px solid #b19891;
+}
+.plan {
+
+  padding: 20px;
+  line-height: 20px;
+}
+
+.price_tag {
+  background: black;
+  font-size: 1.5em;
+  font-weight: bold;
+  position: absolute;
+}
+.small_servak {
+  margin-left: 120px;
+  margin-top: -50px;
+}
+
+.big_servak {
+  position: absolute;
+  margin-top: -60px;
+  z-index: 2;
+}
+
+.shadow {
+  position: absolute;
+  margin-top: 24px;
+  margin-left: 52px;
+  z-index: 1;
+}
+.articles {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.Company_Overview img {
+  height: 154px;
+}
+.Company_Overview p {
+  float: left;
+  margin: 7px 7px 7px 7px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+  height: 29px;
+  background: url(../images/draw_footer.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: repeat;
+}
